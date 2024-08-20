@@ -3,8 +3,7 @@ const express = require("express");
 const cors = require("cors");
 
 // Initialize Stripe with a key (split into multiple lines for readability)
-const stripeKey = "sk_test_51PhpQTAFD8IBeyVhNjqpEomPLmPuc5CbSaSOLNe4b42JmP33z4XZiseWmw18dmc" +
-                  "XBpAUlguy6Dl7DvXu9L1m4qws00JpWTtMEY";
+const stripeKey = "";
 const stripe = require("stripe")(stripeKey);
 
 const app = express();
